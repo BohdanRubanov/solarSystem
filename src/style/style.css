@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.buttons{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    width: fit-content;
+    height: max-content;
+    /* border-radius: 10px; */
+    gap: 6px;
+}
+
+.button{
+    width: 70px;
+    height: 20px;
+    background-color: #fa5ecb;
+    border: 2px solid #ff00c3;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#panel{
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fa5ecb;
+}
